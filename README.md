@@ -36,7 +36,7 @@ actions启用Workflows
 
 /.github/workflows/main.yml中的cron部分，去除schedule和cron前面的井号#
 
-定时任务，每5分钟运行一次（UTC时间）
+定时任务，每5分运行一次（UTC时间）
 ```
 - cron: '*/5 * * * *'
 ```
