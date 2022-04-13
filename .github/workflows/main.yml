@@ -7,9 +7,10 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
+on:
   pull_request:
     branches: [ main ]
-  
+on:
   schedule:
   # 定时任务，每5分钟运行一次
     - cron: '*/5 * * * *'
